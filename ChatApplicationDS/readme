@@ -1,0 +1,20 @@
+Compiling and Running the Program:
+
+1.	Import the project into eclipse IDE. Project name is ChatApplicationDS.
+2.	Start the server by running ChatAppServer class as “java application”
+3.	Start the client by running ChatAppClient class as “run configurations”
+a.	Change the Main class to ChatAppClient
+b.	Name the configuration with a unique name say ChatClient1
+c.	In the arguments tab enter the Username of the client that wants to be registered and
+Whether the user wants others to see him/her online by giving (Y or N). 
+d.	Apply and run
+e.	The above process pops up a client window
+f.	Repeat the same process for as many clients as needed
+
+4.	One can then check the available users who are online (displayed in text area in each client window).
+5.	Once all required clients are up and running, from client1 enter the Name of the user say client2 that you want to connect to in the text box beside the connect button and connect.
+6.	Similarly, from client2, connect to client1 which establishes a two-way communication between client1 and client2
+7.	Any message that is sent from a client is displayed on the chat box of the other client and on the server console as well (with header information)
+8.	Logout button closes the window of that client and disconnects him from the client he is connected to.
+9.	The process is same for as many client pairs as required.
+10.	All the communication that happens between the clients is displayed on the server console.
